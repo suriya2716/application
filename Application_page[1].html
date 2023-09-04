@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <div class="form">
+        <div class="container">
+            <h1 class="head">Create Account</h1>
+
+            <hr class=line>
+        </div>
+        <div class=center>
+            <div class="box">
+                <div class="mar">
+                    <p class="cont">First name*</p>
+                    <input type="text" name="firstname" placeholder="enter your name" size="20">
+                </div>
+                <div class="mar">
+                    <p class="cont">Last name</p>
+                    <input type="text" name="lastname" placeholder="enter your name" size="20">
+                </div>
+            </div>
+            <div class="mar">
+                <p class="cont">Email*</p>
+                <input type="email" name="mail" placeholder="enter your mail" size="40">
+            </div>
+
+            <br>
+
+            <div class="box">
+                <div class="mar">
+                    <p class="cont">Password*</p>
+                    <input type="text" name="Password" placeholder="enter your password" size="20">
+                </div>
+                <div class="mar">
+                    <p class="cont">Confirm Password*</p>
+                    <input type="text" name="confirm password*" placeholder="enter your password again " size="20">
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="mar">
+                    <p class="cont">Gender:</p>
+                    <label>Male</label>
+                    <input type="radio">
+                    <label>Female</label>
+                    <input type="radio">
+
+                    <br>
+                </div>
+                <br>
+                <div class="mar">
+                    <p class="cont">Hobbies</p>
+                    <input type="checkbox">
+                    Music
+                    <input type="checkbox">
+                    Sports
+                    <input type="checkbox">
+                    Travel
+                    <input type="checkbox">
+                    Movies
+                </div>
+            </div>
+            <div class="box">
+                <div class="mar">
+                    <h3 class="cont">Source of Income</h3>
+                    <select class="mar-one" name="country" id="Job">
+                        <option value="Employed" size="70">Employed</option>
+                        <option value="Un Employed" size="70">Un Employed</option>
+                        <option value="Student" size="70">Student</option>
+                    </select>
+                </div>
+                <div class="slidecontainer mar">
+                    <p class="cont">Income</p>
+                    <input type="range" min="1" max="20000" value="50" class="slider mar-one  mar-three" id="myRange" size="500">
+                </div>
+            </div>
+            <div class="box">
+                <div class="mar">
+                    <p class="cont">Upload Profile Picture</p>
+                    <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                    </form>
+                </div>
+
+                <div class="mar">
+                    <p class="cont">Age</p>
+                    <input type="text" name="firstname" placeholder=18 size="6">
+                </div>
+            </div>
+            <div class=box>
+                <div class="mar">
+                    <p class="cont">Bio</p>
+                    <input class="height" type="text" name="firstname" placeholder=" " size="50">
+                </div>
+            </div>
+        </div>
+
+        <hr class=line>
+
+
+
+        <div class="container-bottom">
+            <div class="three">
+                <div class="but">
+                    <buttton class="txt">Create</buttton>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
